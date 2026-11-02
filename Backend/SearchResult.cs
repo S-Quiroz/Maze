@@ -1,7 +1,7 @@
 ﻿
 namespace Backend;
 
-internal class SearchResult
+public class SearchResult
 {
     public bool Found { get; }   // propiedad de solución encontrada
 
