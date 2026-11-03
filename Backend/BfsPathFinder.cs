@@ -59,8 +59,6 @@ public class BfsPathFinder
         var path = new List<Position>();
         var current = exit;
 
-        path.Add(current);
-
         while (current != start)
         {
             current = parent[current];
